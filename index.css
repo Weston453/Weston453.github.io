@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 body{
@@ -17,6 +18,14 @@ body{
 
 #image-mover{
     padding-bottom: 8rem;
+}
+
+/* #about-mover{
+    padding-bottom: 20rem;
+} */
+
+#about-div{
+    margin: 1rem 6rem ;
 }
 
 .main{
@@ -40,12 +49,19 @@ h1{
     letter-spacing: 2px;
 }
 
-p{
-    font-size: 1.5rem;
-    color: white;
+h3{
+    font-size: 3rem;
 }
 
-#techIcons{
+p{
+    
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+#tech-icons{
     height: 3rem;
 }
 
@@ -64,6 +80,44 @@ p{
     border-radius: 2px;
 }
 
+#skipak-image:hover{
+    height: 16rem;
+    border-radius: 2px;
+}
+iframe{
+    border-radius: 2px;
+}
+
+#skipak-page{
+    padding: 1rem;
+} 
+
+#skipak-header{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#skipak-github{
+    height: 2rem;
+}
+
+#click-github{
+    color: lightblue
+}
+
+#tech-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#skills{
+    margin: 3rem;
+}
 /* ------------------------------------------------------------ */
 li{
     list-style: none;
@@ -103,7 +157,7 @@ a{
 }
 
 .nav-link:hover{
-    color: dodgerblue;
+    color: black;
 }
 
 .hamburger{

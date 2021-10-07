@@ -11,13 +11,16 @@
     <Section class="main">
         <header>
             <nav class="navbar">
-                <a href="./../index.html"><img src="https://www.identity-links.com/img/ucart/images/pimage/30026/ELVIS.jpg" class="nav-branding" alt="Profile Picture"></a>
+                <a href="./../index.html"><img src="./../images/IMG_7009.JPG" class="nav-branding" alt="Profile Picture"></a>
                 <ul class="nav-menu">
                     <li class="nav-item">
                         <a href="./../index.html" class="nav-link">HOME</a>
                     </li>
                     <li class="nav-item">
                         <a href="./../projects.html" class="nav-link">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./../skills.html" class="nav-link">SKILLS</a>
                     </li>
                     <li class="nav-item">
                         <a href="./../about.html" class="nav-link">ABOUT</a>
@@ -33,8 +36,19 @@
                 </div>
             </nav>
         </header>
-        
-        
+        <div id="skipak-page">
+            <section id="skipak-header">            
+            <h2 id="skipak-page-title>SkiPak">SkiPak</h2>
+            <a href="https://github.com/Weston453/skipak" target="blank"><img id="skipak-github" src="./../images/291716_github_logo_social network_social_icon.png" alt="Github"></a>
+            </section><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OIjiTnF7myU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+            <p id="click-github">Click the Github icon next to the title to see the code</p><br>
+            <p>The add trail card uses an input feild to collect the trail name, I cna then use the input to create new html elements to display the trails underneath. I can toggle the css to cross of the trail with a click eventlistener. The delete button runs a function to remove the created html element.<br><br>The get forecast card uses the Weatherbit API. Each button has an assigned value with the city name, the value is passed to the API using an axios get request. Then the api responds with the corresponding data in an object, the object is destructured and displayed with created html elements.</p>
+            <!-- <div>
+                <img id="skipak-demo-pics" src="./../images/addtrail.png" alt="add trail image">
+                <p>The add trail card uses an input feild to collect the trail name, I cna then use the input to create new html elements to display the trails underneath. I can toggle the css to cross of the trail with a click eventlistener. The delete button runs a function to remove the created html element completely.</p>
+            </div> -->
+        </div>
     </Section>
     <script src="./../index.js"></script>
 </body>
