@@ -39,7 +39,11 @@ h1{
 
 p{
     font-size: 1.5rem;
-    color:black;
+    color: white;
+}
+
+#techIcons{
+    height: 3rem;
 }
 
 /* ------------------------------------------------------------ */
@@ -112,18 +116,19 @@ a{
     }
 
     .nav-menu{
-        position:fixed;
+        position: fixed;
         left: -100%;
         top: 70px;
         gap: 0;
-        flex-direction: column;
+        /* flex-direction: column; */
         width: 100%;
         text-align: center;
         transition: 0.3s;
     }
 
     .nav-item{
-        margin: 16px 0;
+        /* margin: 16px 0; */
+        margin: 3px 20px;
     }
 
     .nav-menu.active{
