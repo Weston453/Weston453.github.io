@@ -12,7 +12,7 @@ body{
 }
 
 #about-img{
-    height: 10rem;
+    height: 14rem;
     border-radius: 100%;
 }
 
@@ -22,7 +22,7 @@ body{
 }
 
 #image-mover{
-    padding-bottom: 8rem;
+    padding: 6rem;
 }
 
 /* #about-mover{
@@ -30,7 +30,7 @@ body{
 } */
 
 #about-div{
-    margin: 1rem 6rem ;
+    margin: 3rem 6rem 1rem;
 }
 
 .main{
@@ -39,13 +39,15 @@ body{
     color: #fff;
     background: linear-gradient(-45deg, rgb(56, 56, 56), rgb(56, 56, 56), rgb(104, 103, 103), rgb(104, 103, 103),rgb(56, 56, 56), rgb(56, 56, 56), rgb(104, 103, 103), rgb(104, 103, 103));
     background-size: 400% 400%;
-    /* position: relative; */
     animation: change 10s ease-in-out infinite;
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 3rem;
+}
+
+#yolo{
+    height: 100%;
 }
 
 h1{
@@ -66,6 +68,17 @@ p{
     line-height: 35px;
 }
 
+.skills-li{
+    font-size: 2rem;
+}
+
+.skills-ul{
+    display: flex;
+    height: 7rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 25rem;
+}
 
 #tech-icons{
     height: 3rem;
@@ -101,7 +114,7 @@ iframe{
 }
 
 #skipak-page{
-    padding: 1rem;
+    padding: 3rem;
 } 
 
 #skipak-header{
@@ -245,3 +258,9 @@ a{
     }
 
 }
+
+/* @media screen and (max-width: 600px) {
+    .main {
+      height: 100vh;
+    }
+  } */
